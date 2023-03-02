@@ -1,21 +1,15 @@
 # Note Taker
 
-## User Story
-**AS A** small business owner<br>
-**I WANT** to be able to write and save notes<br>
-**SO THAT** I can organize my thoughts and keep track of tasks I need to complete.
+## Description
+This is a simple note taking app built with [Express.js](http://expressjs.com/).  The HTML, CSS, and (client-side) JS, all found in the `/public` folder, comes entirely from starter code found [here](https://github.com/coding-boot-camp/miniature-eureka).  This app uses a single flat-file as a database and grants users the ability to create, read, and delete notes.
 
-## ACCEPTANCE CRITERIA
-**GIVEN** a note-taking application
-- **WHEN** I open the Note Taker<br>
-**THEN** I am presented with a landing page with a link to a notes page
-- **WHEN** I click on the link to the notes page<br>
-**THEN** I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note's text in the right-hand column
-- **WHEN** I enter a new note title and the note's text<br>
-**THEN** a Save icon appears in the navigation at the top of the page
-- **WHEN** I click on the Save icon<br>
-**THEN** the new note I have entered is saved and appears in the left-hand column with the other existing notes
-- **WHEN** I click on an existing note in the list in the left-hand column<br>
-**THEN** that note appears in the right-hand column
-- **WHEN** I click on the Write icon in the navigation at the top of the page<br> 
-**THEN** I am presented with empty fields to enter a new note title and the note's text in the right-hand column
+**Try the Note Taker app here**: []()
+## Installation
+1. Clone this repository: `git clone git@github.com:kitrath/note-taker.git`
+2. Navigate to the base directory: `cd note-taker`
+3. Install dependencies: `npm install`
+4. Start local server: `node server.js`
+## Usage
+Click the *Get Started* button to navigate to the notes page.  To add a new note, click the *add button* (the plus sign) on the right side of the the top bar.  Choose a note title then add some note text.  Click the *save* disk that has appeared to the left of the add button to save your note.  To view a saved note, click on its title in the left sidebar.  The note title and text will appear (non-editable) in the note edit area on the right.  To delete a note, click on the *red trashcan* to the right of the note in the left sidebar.
+## Screenshot
+<p align="center"><img src="./screen.png" width="400px" /></p>
