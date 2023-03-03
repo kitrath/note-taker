@@ -3,7 +3,7 @@
 ## Description
 This is a simple note taking app built with [Express.js](http://expressjs.com/).  The HTML, CSS, and (client-side) JS, all found in the `/public` folder, comes entirely from starter code found [here](https://github.com/coding-boot-camp/miniature-eureka).  This app uses a single flat-file as a database and grants users the ability to create, read, and delete notes.
 
-**Try the Note Taker app here**: []()
+**Try the Note Taker app here**: [https://kitrath-note-taker.herokuapp.com](https://kitrath-note-taker.herokuapp.com/)
 ## Installation
 1. Clone this repository: `git clone git@github.com:kitrath/note-taker.git`
 2. Navigate to the base directory: `cd note-taker`
